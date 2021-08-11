@@ -284,6 +284,7 @@
     width: auto;
     height: 4vh;
     margin: auto;
+    display: flex;
     position: absolute;
   }
   .container2 {
