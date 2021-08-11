@@ -33,6 +33,10 @@
   height: 2.5vw;
   object-fit: cover;
 }
+.image2 {
+  width: 100px;
+  object-fit: cover;
+}
 .container2 {
   flex: 0 0 auto;
   left: auto;
@@ -89,7 +93,7 @@
 .link3 {
   display: contents;
 }
-.image2 {
+.image3 {
   width: 100%;
   align-self: center;
   object-fit: cover;
@@ -99,7 +103,7 @@
 .link4 {
   display: contents;
 }
-.image3 {
+.image4 {
   width: 100%;
   object-fit: cover;
   margin-right: 1.2vw;
@@ -108,7 +112,7 @@
 .link5 {
   display: contents;
 }
-.image4 {
+.image5 {
   width: 100%;
   object-fit: cover;
   text-decoration: none;
@@ -135,7 +139,7 @@
   font-family: Circular Std Book;
   font-weight: 400;
 }
-.image5 {
+.image6 {
   height: 6.2vh;
   object-fit: cover;
   margin-left: 0.6vw;
@@ -253,7 +257,7 @@
   font-size: 2.5vh;
   font-family: Circular Std Book;
 }
-.image6 {
+.image7 {
   height: 3.8vh;
   object-fit: cover;
   margin-left: 0.6vw;
@@ -262,4 +266,74 @@
 .text3 {
   font-size: 2.5vh;
   font-family: Circular Std Book;
+}
+@media(max-width: 479px) {
+  .image {
+    display: none;
+  }
+  .container1 {
+    width: 82%;
+    height: 12vh;
+  }
+  .image1 {
+    height: 8vw;
+  }
+  .image2 {
+    right: 0px;
+    width: auto;
+    height: 4vh;
+    margin: auto;
+    position: absolute;
+  }
+  .container2 {
+    display: none;
+  }
+  .container3 {
+    display: none;
+  }
+  .container4 {
+    margin-top: 8vh;
+  }
+  .text {
+    font-size: 3vh;
+  }
+  .image6 {
+    height: 4.5vh;
+  }
+  .text1 {
+    font-size: 3vh;
+  }
+  .form {
+    width: 82vw;
+  }
+  .textinput {
+    width: 82vw;
+    padding-top: 1em;
+    padding-bottom: 1em;
+  }
+  .textinput1 {
+    width: 82vw;
+    padding-top: 1em;
+    padding-bottom: 1em;
+  }
+  .textinput2 {
+    width: 38vw;
+    padding-top: 1em;
+    margin-right: 6vw;
+    padding-bottom: 1em;
+  }
+  .textinput3 {
+    width: 38vw;
+    padding-top: 1em;
+    padding-bottom: 1em;
+  }
+  .button {
+    width: 82vw;
+    padding-top: 1.2em;
+    padding-bottom: 1.2em;
+  }
+  .container7 {
+    margin-top: 8vh;
+    justify-content: center;
+  }
 }

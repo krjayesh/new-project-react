@@ -23,6 +23,11 @@ const Home = () => {
           src="/playground_assets/group%20608.svg"
           className={styles['image1']}
         />
+        <img
+          src="/playground_assets/menu.svg"
+          alt="image"
+          className={styles['image2']}
+        />
         <div className={styles['container2']}>
           <a
             href="https://example.com"
@@ -53,7 +58,7 @@ const Home = () => {
             <img
               alt="image"
               src="/playground_assets/download%20(2)%201.svg"
-              className={` ${styles['image2']} ${projectStyles['thqLink']} `}
+              className={` ${styles['image3']} ${projectStyles['thqLink']} `}
             />
           </a>
           <a
@@ -65,7 +70,7 @@ const Home = () => {
             <img
               alt="image"
               src="/playground_assets/icons8-facebook-circled%201.svg"
-              className={` ${styles['image3']} ${projectStyles['thqLink']} `}
+              className={` ${styles['image4']} ${projectStyles['thqLink']} `}
             />
           </a>
           <a
@@ -77,7 +82,7 @@ const Home = () => {
             <img
               alt="image"
               src="/playground_assets/icons8-instagram-logo%201.svg"
-              className={` ${styles['image4']} ${projectStyles['thqLink']} `}
+              className={` ${styles['image5']} ${projectStyles['thqLink']} `}
             />
           </a>
         </div>
@@ -88,7 +93,7 @@ const Home = () => {
           <img
             alt="image"
             src="/playground_assets/carolina-panthers-riddell-blaze-alternate-speed-mini-helmet-2_1024x1024_adobespark%202-1200h.png"
-            className={styles['image5']}
+            className={styles['image6']}
           />
           <h1 className={styles['text1']}>To Rumble</h1>
         </div>
@@ -149,7 +154,7 @@ const Home = () => {
         <img
           alt="image"
           src="/playground_assets/download%20(11)%201.svg"
-          className={styles['image6']}
+          className={styles['image7']}
         />
         <span className={styles['text3']}>call us at +1 285 5210847</span>
       </div>
