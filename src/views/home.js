@@ -14,7 +14,7 @@ const Home = () => {
       </Helmet>
       <img
         alt="image"
-        src="/playground_assets/registergbimg-1000w.png"
+        src="/playground_assets/registergbimg-1200h.png"
         className={styles['image']}
       />
       <header id="header" className={styles['container1']}>
