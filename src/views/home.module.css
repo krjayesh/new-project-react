@@ -35,6 +35,7 @@
 }
 .image2 {
   width: 100px;
+  display: none;
   object-fit: cover;
 }
 .container2 {
