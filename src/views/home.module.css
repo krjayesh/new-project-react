@@ -11,7 +11,8 @@
 .image {
   top: 0px;
   right: 0px;
-  height: 100vh;
+  width: 55vw;
+  height: 800px;
   margin: auto;
   z-index: 0;
   position: absolute;
