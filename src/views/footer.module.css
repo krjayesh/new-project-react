@@ -1,0 +1,241 @@
+.container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  min-height: 100vh;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.container01 {
+  flex: 0 0 auto;
+  width: 82vw;
+  height: 10vh;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.container02 {
+  flex: 0 0 auto;
+  width: 82vw;
+  height: 30vh;
+  display: flex;
+  z-index: 2;
+  position: relative;
+  flex-wrap: wrap;
+  align-self: center;
+  align-items: center;
+  padding-top: 7.4vh;
+  padding-left: 6vw;
+  margin-bottom: -15vh;
+  padding-right: 6vw;
+  flex-direction: row;
+  padding-bottom: 7.4vh;
+  justify-content: space-between;
+  background-color: #1A002D;
+}
+.container03 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+.container04 {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.text {
+  color: #ffffff;
+  font-size: 60px;
+  font-style: normal;
+  font-family: Circular Std Bold;
+  font-weight: 700;
+  line-height: 1.1;
+}
+.image {
+  width: 80px;
+  object-fit: cover;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.container05 {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.text1 {
+  color: #ffffff;
+  font-size: 60px;
+  font-style: normal;
+  font-family: Circular Std Bold;
+  font-weight: 700;
+  line-height: 1.1;
+}
+.container06 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: space-between;
+  flex-direction: column;
+}
+.container07 {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  justify-content: center;
+}
+.container08 {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.text2 {
+  color: #ffffff;
+  font-size: 2.6vh;
+  font-style: normal;
+  font-family: Circular Std Book;
+  font-weight: 400;
+  line-height: 1.1;
+  margin-bottom: 47px;
+}
+.container09 {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.button {
+  font-size: 20px;
+  font-style: normal;
+  font-family: Circular Std Medium;
+  font-weight: 400;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  background-color: var(--dl-color-gray-white);
+}
+.container10 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  padding-left: 9vw;
+  padding-right: 9vw;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #00ffe9;
+}
+.text3 {
+  color: #ffffff;
+  font-size: 3.5vh;
+  font-style: normal;
+  margin-top: 25vh;
+  font-family: Circular Std Medium;
+  font-weight: 400;
+  margin-bottom: 10vh;
+}
+.container11 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 20vh;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.image1 {
+  width: 30vh;
+  object-fit: cover;
+  margin-right: 4vw;
+}
+.image2 {
+  width: 30vh;
+  object-fit: cover;
+  margin-right: 4vw;
+}
+.image3 {
+  width: 30vh;
+  object-fit: cover;
+  margin-right: 4vw;
+}
+.image4 {
+  width: 30vh;
+  object-fit: cover;
+  margin-right: 4vw;
+}
+.container12 {
+  flex: 0 0 auto;
+  width: 100vw;
+  height: 10vh;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  padding-left: 9vw;
+  padding-right: 9vw;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+.text4 {
+  color: #ffffff;
+  font-size: 2.2vh;
+  font-style: normal;
+  font-family: Circular Std Book;
+  font-weight: 400;
+}
+@media(max-width: 479px) {
+  .container02 {
+    height: 35vh;
+    padding: 6vw;
+    align-items: center;
+    justify-content: center;
+  }
+  .container03 {
+    align-items: flex-start;
+    margin-bottom: 2.5vh;
+    justify-content: center;
+  }
+  .text {
+    font-size: 5vh;
+  }
+  .image {
+    width: 7vh;
+  }
+  .text1 {
+    font-size: 5vh;
+  }
+  .text2 {
+    display: none;
+  }
+  .container10 {
+    height: auto;
+  }
+  .text3 {
+    margin-top: 20vh;
+    margin-bottom: 5vh;
+  }
+  .container11 {
+    margin-bottom: 5vh;
+  }
+  .container12 {
+    position: relative;
+    align-items: center;
+    justify-content: center;
+  }
+  .text4 {
+    align-self: center;
+  }
+}
