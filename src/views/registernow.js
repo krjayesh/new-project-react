@@ -10,8 +10,19 @@ const Registernow = () => {
   return (
     <div className={styles['container']}>
       <Helmet>
-        <title>Register now - New Project</title>
-        <meta property="og:title" content="Register now - New Project" />
+        <title>Register for OneLax Lacrosse Camp</title>
+        <meta
+          name="description"
+          content="Participate in the OneLax Bahamas Lacrosse camp online."
+        />
+        <meta
+          property="og:title"
+          content="Register online for OneLax Bahamas lacrosse camp"
+        />
+        <meta
+          property="og:description"
+          content="Participate in the OneLax Bahamas Lacrosse camp online."
+        />
       </Helmet>
       <img
         alt="image"

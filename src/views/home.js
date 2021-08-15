@@ -14,17 +14,19 @@ const Home = () => {
         <meta property="og:title" content="New Project" />
       </Helmet>
       <header id="header" className={styles['container1']}>
-        <img
-          alt="image"
-          src="/playground_assets/group%20608.svg"
-          className={styles['image']}
-        />
+        <div className={styles['container2']}>
+          <img
+            alt="image"
+            src="/playground_assets/group%20608.svg"
+            className={styles['image']}
+          />
+        </div>
         <img
           alt="image"
           src="/playground_assets/menu.svg"
           className={styles['image1']}
         />
-        <div className={styles['container2']}>
+        <div className={styles['container3']}>
           <Link
             to="/"
             className={` ${styles['navlink']} ${projectStyles['thqLink']} `}
@@ -44,7 +46,7 @@ const Home = () => {
             Contact
           </a>
         </div>
-        <div className={styles['container3']}>
+        <div className={styles['container4']}>
           <a
             href="https://twitter.com"
             target="_blank"
@@ -83,6 +85,13 @@ const Home = () => {
           </a>
         </div>
       </header>
+      <div className={styles['container5']}>
+        <img
+          alt="image"
+          src="/playground_assets/helmet-emoji-1000h.webp"
+          className={styles['image5']}
+        />
+      </div>
     </div>
   )
 }

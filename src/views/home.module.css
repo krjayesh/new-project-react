@@ -18,6 +18,14 @@
   flex-direction: row;
   justify-content: flex-start;
 }
+.container2 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
 .image {
   height: 2.5vw;
   object-fit: cover;
@@ -27,7 +35,7 @@
   display: none;
   object-fit: cover;
 }
-.container2 {
+.container3 {
   flex: 0 0 auto;
   left: auto;
   right: 9.5vw;
@@ -71,7 +79,7 @@
   font-weight: 400;
   text-decoration: none;
 }
-.container3 {
+.container4 {
   flex: 0 0 auto;
   right: 0px;
   width: 8vw;
@@ -110,6 +118,18 @@
   object-fit: cover;
   text-decoration: none;
 }
+.container5 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.image5 {
+  width: 100px;
+  object-fit: cover;
+}
 @media(max-width: 479px) {
   .container1 {
     width: 82%;
@@ -126,10 +146,10 @@
     display: flex;
     position: absolute;
   }
-  .container2 {
+  .container3 {
     display: none;
   }
-  .container3 {
+  .container4 {
     display: none;
   }
 }

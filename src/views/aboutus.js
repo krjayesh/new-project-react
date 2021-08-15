@@ -11,6 +11,7 @@ const Aboutus = () => {
         <title>About us - New Project</title>
         <meta property="og:title" content="About us - New Project" />
       </Helmet>
+      <div className={styles['container1']}></div>
     </div>
   )
 }
