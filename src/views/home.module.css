@@ -60,7 +60,7 @@
 .text {
   color: #1A062D;
 }
-.link {
+.navlink1 {
   color: #1a062d;
   font-size: 2vh;
   align-self: center;
@@ -70,7 +70,7 @@
   margin-right: 2.2vw;
   text-decoration: none;
 }
-.link1 {
+.link {
   color: #1a062d;
   font-size: 2vh;
   align-self: center;
@@ -91,7 +91,7 @@
   flex-direction: row;
   justify-content: flex-end;
 }
-.link2 {
+.link1 {
   display: contents;
 }
 .image2 {
@@ -101,7 +101,7 @@
   margin-right: 1.2vw;
   text-decoration: none;
 }
-.link3 {
+.link2 {
   display: contents;
 }
 .image3 {
@@ -110,7 +110,7 @@
   margin-right: 1.2vw;
   text-decoration: none;
 }
-.link4 {
+.link3 {
   display: contents;
 }
 .image4 {

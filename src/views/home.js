@@ -33,15 +33,15 @@ const Home = () => {
           >
             <span className={styles['text']}>Home</span>
           </Link>
+          <Link
+            to="/register"
+            className={` ${styles['navlink1']} ${projectStyles['thqLink']} `}
+          >
+            About us
+          </Link>
           <a
             href="https://example.com"
             className={` ${styles['link']} ${projectStyles['thqLink']} `}
-          >
-            About us
-          </a>
-          <a
-            href="https://example.com"
-            className={` ${styles['link1']} ${projectStyles['thqLink']} `}
           >
             Contact
           </a>
@@ -51,7 +51,7 @@ const Home = () => {
             href="https://twitter.com"
             target="_blank"
             rel="noreferrer noopener"
-            className={styles['link2']}
+            className={styles['link1']}
           >
             <img
               alt="image"
@@ -63,7 +63,7 @@ const Home = () => {
             href="https://www.facebook.com/"
             target="_blank"
             rel="noreferrer noopener"
-            className={styles['link3']}
+            className={styles['link2']}
           >
             <img
               alt="image"
@@ -75,7 +75,7 @@ const Home = () => {
             href="https://www.instagram.com"
             target="_blank"
             rel="noreferrer noopener"
-            className={styles['link4']}
+            className={styles['link3']}
           >
             <img
               alt="image"
